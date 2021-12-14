@@ -1,0 +1,766 @@
+// 20211214101634
+// https://api.motogp.com/riders-api/riders/7c653b2a-b493-436b-a77e-06a43b37b799
+
+{
+    "id": "7c653b2a-b493-436b-a77e-06a43b37b799",
+    "name": "Michele",
+    "surname": "Pirro",
+    "nickname": null,
+    "country": {
+      "iso": "IT",
+      "name": "Italy"
+    },
+    "birth_city": "San Giovanni Rotondo",
+    "birth_date": "1986-07-05",
+    "physical_attributes": {
+      "height": 177,
+      "weight": 69
+    },
+    "career": [
+      {
+        "season": 2022,
+        "number": 51,
+        "sponsored_team": "Ducati Lenovo Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": false,
+        "short_nickname": "MP51",
+        "current": true,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/c/e/ce2ac94c-0a69-49bf-bf4d-453c0a6080d3/profile/main/51-Michele-Pirro.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/0/8/08336ab5-ef84-4aa5-8ecd-1ca41ab58c39/number/51_Michele_Pirro.png",
+          "portrait": "https://photos.motogp.com/riders/6/a/6adf4aa7-dc68-4460-9b7f-a42a066bd450/portrait/51-Michele-Pirro.jpg"
+        }
+      },
+      {
+        "season": 2021,
+        "number": 51,
+        "sponsored_team": "Ducati Lenovo Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": "MP51",
+        "current": true,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/c/e/ce2ac94c-0a69-49bf-bf4d-453c0a6080d3/profile/main/51-Michele-Pirro.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/0/8/08336ab5-ef84-4aa5-8ecd-1ca41ab58c39/number/51_Michele_Pirro.png",
+          "portrait": "https://photos.motogp.com/riders/6/a/6adf4aa7-dc68-4460-9b7f-a42a066bd450/portrait/51-Michele-Pirro.jpg"
+        }
+      },
+      {
+        "season": 2021,
+        "number": 51,
+        "sponsored_team": "Pramac Racing",
+        "team": {
+          "id": "612440fd-90eb-4823-bec9-f9e37520d00f",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Pramac Racing",
+          "legacy_id": 32,
+          "color": "#cc3333",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/0/5/059340ce-9019-451f-a12f-95f5fbbe17a3/_0002_43-Jack-Miller-AUS,-BikeLG8_2309.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": "MP51",
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/8/a/8a693fb6-b81d-4d37-be0a-e47800519fd5/profile/main/51-Michele-Pirro_DSC9219.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/e/3/e3c15f8f-28e4-435e-8e11-4bde813d8887/number/51_MichelePirro.png",
+          "portrait": "https://photos.motogp.com/riders/8/a/8a693fb6-b81d-4d37-be0a-e47800519fd5/portrait/51_Michele_Pirro_DSC9211.jpg"
+        }
+      },
+      {
+        "season": 2020,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": "MP51",
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/9/5/95c35b35-58f4-44db-a381-c113906cf178/profile/main/51-Michele-Pirro-ITA_DSC0017.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/e/3/e3c15f8f-28e4-435e-8e11-4bde813d8887/number/51_MichelePirro.png",
+          "portrait": "https://photos.motogp.com/riders/9/5/95c35b35-58f4-44db-a381-c113906cf178/portrait/51-Michele-Pirro-ITA_DSC0015.jpg"
+        }
+      },
+      {
+        "season": 2019,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/2019/dorsales/3/6231.png",
+          "portrait": "https://photos.motogp.com/2019/riders/motogp/grid/original/rider_6231_1559244853.jpg"
+        }
+      },
+      {
+        "season": 2018,
+        "number": 0,
+        "sponsored_team": null,
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/2018/dorsales/3/6231.png",
+          "portrait": "https://photos.motogp.com/2018/riders/motogp/grid/original/rider_6231_1527784817.jpg"
+        }
+      },
+      {
+        "season": 2017,
+        "number": 51,
+        "sponsored_team": "Ducati Test Team",
+        "team": {
+          "id": "dd593710-63bf-46eb-a31d-18a7dec1ecfb",
+          "constructor": {
+            "id": "cdb641bf-2ec0-41cd-9959-e4322000fae9",
+            "name": "Energica",
+            "legacy_id": 589
+          },
+          "name": "Ducati Test Team",
+          "legacy_id": 222,
+          "color": null,
+          "text_color": null,
+          "picture": null,
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://photos.motogp.com/2017/riders/motogp/grid/original/rider_6231_1496391733.jpg"
+        }
+      },
+      {
+        "season": 2017,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://photos.motogp.com/2017/riders/motogp/grid/original/rider_6231_1496391733.jpg"
+        }
+      },
+      {
+        "season": 2016,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://photos.motogp.com/2016/riders/motogp/grid/original/rider_6231_1464880410.jpg"
+        }
+      },
+      {
+        "season": 2015,
+        "number": 51,
+        "sponsored_team": "Ducati Test Team",
+        "team": {
+          "id": "dd593710-63bf-46eb-a31d-18a7dec1ecfb",
+          "constructor": {
+            "id": "cdb641bf-2ec0-41cd-9959-e4322000fae9",
+            "name": "Energica",
+            "legacy_id": 589
+          },
+          "name": "Ducati Test Team",
+          "legacy_id": 222,
+          "color": null,
+          "text_color": null,
+          "picture": null,
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2015,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2014,
+        "number": 51,
+        "sponsored_team": "Ducati Team",
+        "team": {
+          "id": "892fff2f-7402-4fbd-99fb-5fd567d8a80c",
+          "constructor": {
+            "id": "38af1078-e2f1-4399-811c-1e98cf6f6150",
+            "name": "Ducati",
+            "legacy_id": 110
+          },
+          "name": "Ducati Lenovo Team",
+          "legacy_id": 15,
+          "color": "#f92515",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/a/4/a4f66b6b-2bab-45fd-8935-4189669d92db/Ducati-Team.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2013,
+        "number": 51,
+        "sponsored_team": "Ducati Test Team",
+        "team": {
+          "id": "dd593710-63bf-46eb-a31d-18a7dec1ecfb",
+          "constructor": {
+            "id": "cdb641bf-2ec0-41cd-9959-e4322000fae9",
+            "name": "Energica",
+            "legacy_id": 589
+          },
+          "name": "Ducati Test Team",
+          "legacy_id": 222,
+          "color": null,
+          "text_color": null,
+          "picture": null,
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2012,
+        "number": 51,
+        "sponsored_team": "San Carlo Honda Gresini",
+        "team": {
+          "id": "20ab0344-e271-4406-9d92-72f3a1b2e75f",
+          "constructor": {
+            "id": "21fbe597-b587-42e1-b571-a06af5cc2487",
+            "name": "Aprilia",
+            "legacy_id": 7
+          },
+          "name": "San Carlo Honda Gresini",
+          "legacy_id": 10,
+          "color": null,
+          "text_color": null,
+          "picture": "https://photos.motogp.com/2020/teams/motogp/original/team_bike_10_1574329094.jpg",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2011,
+        "number": 51,
+        "sponsored_team": "Gresini Racing Moto2",
+        "team": {
+          "id": "8770dd7a-3a48-4409-a2d0-439038f1ff51",
+          "constructor": {
+            "id": "791160c2-6d2f-47ad-8d87-29e4f729073a",
+            "name": "Kalex",
+            "legacy_id": 447
+          },
+          "name": "Gresini Racing Moto2",
+          "legacy_id": 206,
+          "color": null,
+          "text_color": null,
+          "picture": "https://photos.motogp.com/2020/teams/moto2/original/team_bike_206_1583857092.jpg",
+          "published": true
+        },
+        "category": {
+          "id": "ea854a67-73a4-4a28-ac77-d67b3b2a530a",
+          "name": "Moto2",
+          "legacy_id": 2
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2010,
+        "number": 0,
+        "sponsored_team": null,
+        "team": {
+          "id": "1a15c1dc-cbc1-4d88-8f6c-2ba0a6ab54be",
+          "constructor": {
+            "id": "8e21365c-a465-476a-a66b-5fda45058c2e",
+            "name": "Honda",
+            "legacy_id": 1
+          },
+          "name": "Malaguti Reparto Corse",
+          "legacy_id": 111,
+          "color": null,
+          "text_color": null,
+          "picture": "https://photos.motogp.com/2020/teams/moto3/original/team_bike_111_1584628514.jpg",
+          "published": true
+        },
+        "category": {
+          "id": "ea854a67-73a4-4a28-ac77-d67b3b2a530a",
+          "name": "Moto2",
+          "legacy_id": 2
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      },
+      {
+        "season": 2005,
+        "number": 15,
+        "sponsored_team": "Malaguti Reparto Corse",
+        "team": {
+          "id": "1a15c1dc-cbc1-4d88-8f6c-2ba0a6ab54be",
+          "constructor": {
+            "id": "8e21365c-a465-476a-a66b-5fda45058c2e",
+            "name": "Honda",
+            "legacy_id": 1
+          },
+          "name": "Malaguti Reparto Corse",
+          "legacy_id": 111,
+          "color": null,
+          "text_color": null,
+          "picture": "https://photos.motogp.com/2020/teams/moto3/original/team_bike_111_1584628514.jpg",
+          "published": true
+        },
+        "category": {
+          "id": "578be24b-3cd6-498f-9ed8-f0817be88467",
+          "name": "125cc",
+          "legacy_id": 10
+        },
+        "in_grid": true,
+        "short_nickname": null,
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": null,
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": null,
+          "portrait": "https://www.motogp.com/en/api/rider/photo/grid/old/6231"
+        }
+      }
+    ],
+    "biography": {
+      "text": "Michele Pirro won the 2004 125cc European Championship in 2004, after which he joined the World Championship, scoring points in his 125cc 2005 campaign. The Italian spent four seasons away, during which time he finished fifth in the WSS series in 2010, before he joined the Moto2™ World Championship with the experienced Gresini team full time in 2011. He finished the season with an emotional win at the last round of the year in Valencia, an instrumental point in the team’s decision to continue racing following the loss of their much-beloved rider in the premier class, Marco Simoncelli. Pirro was at the helm of the Gresini Team’s MotoGP™ CRT project, riding their FTR MGP12 Honda bike for his first taste of the premier class. After a year with Gresini he joined Ducati as a test rider and made a number of wildcard appearances as well as being the main replacement rider. In 2016 he filled in for the injured Danilo Petrucci in the Octo Pramac Yakhnich squad aboard the GP15. Remaining with the Borgo Panigale factory as a test rider, Pirro wildcarded once more at Mugello in 2017 and took a stunning second row start, backing up his pace in the race with a top ten finish. In 2018 there were more wildcard appearances in Misano, Sepang and Valencia, with a P4 in the latter seeing him narrowly miss out on a podium. There were three more on-track appearances for Pirro in 2019, once again at Mugello, Misano and Valencia, before standing in for the injured Francesco Bagnaia at the Austrian double in 2020. So far in 2021, he has made his customary appearance at the Italian GP, where he took a P13 finish. ",
+      "media": {
+        "video": null,
+        "picture": null
+      }
+    },
+    "legend": false,
+    "legacy_id": 6231,
+    "merchandise_url": null,
+    "published": true,
+    "injured": false,
+    "banned": false,
+    "wildcard": false
+  }

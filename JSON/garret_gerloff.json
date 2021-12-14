@@ -1,0 +1,164 @@
+// 20211214101337
+// https://api.motogp.com/riders-api/riders/78a58970-85cb-4cbd-8b51-f5f82ce309b8
+
+{
+    "id": "78a58970-85cb-4cbd-8b51-f5f82ce309b8",
+    "name": "Garrett",
+    "surname": "Gerloff",
+    "nickname": null,
+    "country": {
+      "iso": "US",
+      "name": "United States of America"
+    },
+    "birth_city": "USA",
+    "birth_date": "1995-08-01",
+    "physical_attributes": {
+      "height": 0,
+      "weight": 0
+    },
+    "career": [
+      {
+        "season": 2021,
+        "number": 31,
+        "sponsored_team": "Petronas Yamaha SRT",
+        "team": {
+          "id": "21b54b4c-a6f2-40bb-b4b7-1d8f3b8a431c",
+          "constructor": {
+            "id": "f2e835be-7fab-4782-a26b-de3d583d132c",
+            "name": "Yamaha",
+            "legacy_id": 3
+          },
+          "name": "Petronas Yamaha SRT",
+          "legacy_id": 46,
+          "color": "#1e4374",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/7/0/7064589f-b982-4976-a29c-9c72737a40cb/Petronas-Yamaha_SRT.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": true,
+        "short_nickname": "GG31",
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/4/2/42b1181c-195f-4b01-866a-b927161c2678/profile/main/31.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/3/6/36d39491-662a-493b-8577-991e1e0a81ee/number/31_Garrett_Gerloff.png",
+          "portrait": "https://photos.motogp.com/riders/4/2/42b1181c-195f-4b01-866a-b927161c2678/portrait/312.jpg"
+        }
+      },
+      {
+        "season": 2020,
+        "number": 31,
+        "sponsored_team": "Monster Energy Yamaha MotoGP",
+        "team": {
+          "id": "141b6f0f-7e53-4d27-9bdb-0ea8fba7e842",
+          "constructor": {
+            "id": "f2e835be-7fab-4782-a26b-de3d583d132c",
+            "name": "Yamaha",
+            "legacy_id": 3
+          },
+          "name": "Monster Energy Yamaha MotoGP",
+          "legacy_id": 19,
+          "color": "#183dc7",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/4/b/4b270100-b29c-4e64-82dd-ca7e5eef3561/Monster-Energy-Yamaha-MotoGP.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": false,
+        "short_nickname": "GG31",
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/2/9/292b9a6c-a806-433d-80f7-e7c4811f5420/profile/main/31-Garrett-Gerloff-DSC6259.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/2/9/292b9a6c-a806-433d-80f7-e7c4811f5420/number/31_Garrett_Gerloff.png",
+          "portrait": "https://photos.motogp.com/riders/2/9/292b9a6c-a806-433d-80f7-e7c4811f5420/portrait/31-Garrett-Gerloff.jpg"
+        }
+      },
+      {
+        "season": 2020,
+        "number": 31,
+        "sponsored_team": "Monster Energy Yamaha MotoGP",
+        "team": {
+          "id": "141b6f0f-7e53-4d27-9bdb-0ea8fba7e842",
+          "constructor": {
+            "id": "f2e835be-7fab-4782-a26b-de3d583d132c",
+            "name": "Yamaha",
+            "legacy_id": 3
+          },
+          "name": "Monster Energy Yamaha MotoGP",
+          "legacy_id": 19,
+          "color": "#183dc7",
+          "text_color": "#ffffff",
+          "picture": "https://photos.motogp.com/teams/4/b/4b270100-b29c-4e64-82dd-ca7e5eef3561/Monster-Energy-Yamaha-MotoGP.png",
+          "published": true
+        },
+        "category": {
+          "id": "737ab122-76e1-4081-bedb-334caaa18c70",
+          "name": "MotoGP",
+          "legacy_id": 3
+        },
+        "in_grid": false,
+        "short_nickname": "GG31",
+        "current": false,
+        "pictures": {
+          "profile": {
+            "main": "https://photos.motogp.com/riders/3/6/36d39491-662a-493b-8577-991e1e0a81ee/profile/main/31-Garrett-Gerloff-DSC6259.png",
+            "secondary": null
+          },
+          "bike": {
+            "main": null,
+            "secondary": null
+          },
+          "helmet": {
+            "main": null,
+            "secondary": null
+          },
+          "number": "https://photos.motogp.com/riders/3/6/36d39491-662a-493b-8577-991e1e0a81ee/number/31_Garrett_Gerloff.png",
+          "portrait": "https://photos.motogp.com/riders/3/6/36d39491-662a-493b-8577-991e1e0a81ee/portrait/31-Garrett-Gerloff.jpg"
+        }
+      }
+    ],
+    "biography": {
+      "text": "Gerloff spent most of the past decade finding success at each rung of the USA motorcycling ladder. After picking up multiple trophies and wins in the WERA National series and the Daytona Sportbike championship, Gerloff landed in the MotoAmerica Supersport class in 2015, finishing 3rd on his first attempt. He would go two better in 2016 and again in 2017, becoming a two-time champion by the age of 22.\nThis success earned him a move up to the MotoAmerica Superbike class in 2018, in the factory Yamaha squad. Gerloff dealt with the steep learning curve admirably, picking up five podiums on course to fifth in the standings in his rookie year, but his sophomore season is when Gerloff truly shone. Four wins and a further 11 podiums across 20 races were enough to claim third in the standings in 2019 – just 51 points off the Champion.\nHis first breakthrough in WorldSBK came at the Catalunya Round as he converted strong pace throughout the weekend into third place, before following that up with ac double podium at the season-ending Estoril Round\nHis strong performances didn’t go unnoticed by Yamaha, with the American receiving a first call up to replace Valentino Rossi on the M1 for the Friday of the European Grand Prix in 2020. In 2021, the 26-year-old finally got his first taste of premier class racing when he replaced the injured Franco Morbidelli at the Dutch TT, becoming the first American to ride in motoGP™ since former Champion Nicky Hayden in 2016, as he earned a P17 finish. ",
+      "media": {
+        "video": null,
+        "picture": null
+      }
+    },
+    "legend": false,
+    "legacy_id": 7927,
+    "merchandise_url": null,
+    "published": true,
+    "injured": false,
+    "banned": false,
+    "wildcard": false
+  }
