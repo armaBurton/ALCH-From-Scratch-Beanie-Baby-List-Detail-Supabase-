@@ -183,3 +183,15 @@ footer {
     font-size: 1.2rem;
     columns: 2;
 }
+
+.clicks-back{
+    cursor: pointer;
+}
+
+/* .clicks-back:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .45);
+}
+
+.clicks-back:active{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+} */
