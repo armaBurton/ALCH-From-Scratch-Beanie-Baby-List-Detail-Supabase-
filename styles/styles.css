@@ -76,9 +76,13 @@ footer {
     border: solid 2px var(--magenta);
     height: 70px;
     width: 600px;
-    margin-top: 50px;
+    margin-top: 10px;
     border-bottom-left-radius: 15px;
     cursor:pointer;
+}
+
+.rider-card:first-child{
+    margin-top: 50px;
 }
 
 .rider-card:hover .place{

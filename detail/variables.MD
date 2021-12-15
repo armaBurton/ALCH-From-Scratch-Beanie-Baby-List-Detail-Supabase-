@@ -1,5 +1,5 @@
-.rider-number
-img.rider
+p.rider-number
+img.rider-img
 
 p.racer-name
 p.racer-number
