@@ -9,7 +9,8 @@ export function renderRankCard(rankCard){
             place: card.place,
             racer: card.racer, 
             country: card.country,
-            points: card.points
+            points: card.points,
+            id: card.id
         };
 
         //riderCard holds .place, .rankings, .logo
@@ -35,7 +36,7 @@ export function renderRankCard(rankCard){
         const country = document.createElement(`p`);
         country.classList.add(`country`);
         country.textContent = cardObj.country;
-
+        
         //pPoints holds .points
         const pPoints = document.createElement(`p`);
         pPoints.classList.add(`p-points`);
@@ -50,8 +51,10 @@ export function renderRankCard(rankCard){
         logo.classList.add(`logo`);
         logo.src = './assets/riders/motogp.webp';
 
-        riderCard.addEventListener(`click`, () =>{
+        const id = cardObj.id;
 
+        riderCard.addEventListener(`click`, () => {
+            window.location.href = `./detail/index.html?id=${id}`;
         });
         
         riderCard.append(place, rankings, logo);

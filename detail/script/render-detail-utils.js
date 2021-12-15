@@ -1,13 +1,27 @@
 export function renderDetailCard(data){
+    const url = new URL(location.href);
+    const search = url.searchParams;
+    const id = parseInt(search.get(`id`));
+
+    let position = 0;
+    let index = 0;
+    for (let d of data){
+        const x = d.id;
+        if (x === id){
+            index = position;
+        }
+        position++;
+    }
+
     let detailObj = {
-        riderNumber: data.riderNumber,
-        riderImg: data.riderImg,
-        name: data.name,
-        racerNumber: data.racerNumber,
-        sponsoredTeam: data.sponsoredTeam,
-        polePosition: data.polePosition,
-        ptCount: data.ptCount,
-        biography: data.biography
+        riderNumber: data[index].riderNumber,
+        riderImg: data[index].riderImg,
+        name: data[index].name,
+        racerNumber: data[index].racerNumber,
+        sponsoredTeam: data[index].sponsoredTeam,
+        polePosition: data[index].polePosition,
+        ptCount: data[index].ptCount,
+        biography: data[index].biography
     };
 
     //holds .top-left and .top-right
@@ -89,6 +103,11 @@ export function renderDetailCard(data){
 
     detailSectionBottom.append(biography);
 
+    const clickBack = document.querySelector(`.clicks-back`);
+
+    clickBack.addEventListener(`click`, () => {
+        window.location.href = '../';
+    });
 
     
     //holds .rider-number .rider-image
@@ -98,8 +117,7 @@ export function renderDetailCard(data){
     
     topLeft.append(riderNumber, riderImage);
     
-    const main = document.querySelector(`main`);
+    const main = document.querySelector(`.clicks-back`);
     main.append(detailSectionTop, detailSectionBottom);
 
-    console.log(detailObj);
 }
