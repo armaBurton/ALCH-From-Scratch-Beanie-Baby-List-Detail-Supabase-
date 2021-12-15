@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+*{
+    /* feel free to update these css variables for a quick theme */
+    
+    --magenta: #ba2575;
+    --indigo: #710be6;
+    --chartreuse: #90ff12;
+    --green: #39b372;
+    --orange: #f77e14;
+    
+    /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
+    
+    --header-height: 80px;
+    --shadow: 0px 0px 20px -3px rgba(0,0,0,0.45);
+    --footer-shadow: 0px 0px 20px -3px rgba(0,0,0,0.45);
+    --gutter: 30px;
+    --footer-height: 35px;
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: var(--magenta);
+}
+
+main {
+    padding-top: var(--header-height);
+    padding-bottom: var(--footer-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--footer-height));
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--indigo);
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+    position: fixed;
+    z-index: 100;
+}
+
+.gutter-right {
+    margin-right: 20px;
+}
+
+header img {
+    height: var(--header-height);
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: var(--footer-height);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--indigo);
+    color: var(--chartreuse);
+    box-shadow: var(--footer-shadow);
+}
+
+.detail-section-top{
+    margin-top: 50px;
+    /* border: 5px double silver; */
+    /* border-bottom-left-radius: 15px; */
+    width: 800px;
+    /* height: 200px; */
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    height: 298px;
+    border-top: 5px double var(--chartreuse);
+    border-left: 5px double var(--chartreuse);
+    border-right: 5px double var(--chartreuse);
+}
+
+.rider-number{
+    color: rgba(102, 102, 102, .5);
+    position: relative;
+    font-family: 'Racing Sans One', cursive;
+    bottom:120px;
+    right: 30px;
+    font-size: 20rem;
+    font-weight: 900;
+    text-align: center;
+    width: 392px;
+}
+
+.rider-image{
+    position: relative;
+    bottom: 405px;
+    left: 15px;
+    height: 300px;
+    width: 300px;
+    overflow:hidden;
+    /* background-color: var(--chartreuse) */
+}
+
+.rider{
+    /* box-shadow: inset 0 0 10px  black; */
+    position: relative;
+    right: 210px;
+    height: 1200px;
+}
+
+.top-right{
+    display: flex;
+    flex-direction: column;
+    height: 298px;
+}
+
+.name-tag{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding-top: 100px;
+    width: 370px;
+}
+
+.flex-row{
+    display:flex;
+    align-items: baseline;
+}
+
+.flex-row{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.racer-name{
+    margin-top: 20px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 2rem;
+    color: var(--chartreuse);
+    border-bottom: 3px solid var(--chartreuse);
+    width: 100%;
+}
+
+.racer-number{
+    font-family: 'Racing Sans One', cursive;
+    color: var(--chartreuse);
+    font-size: 2rem;
+    border-bottom: 3px solid var(--chartreuse);
+}
+
+.sponsored-team{
+    color: white;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.detail-section-bottom{
+    width: 800px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px double var(--chartreuse);
+    border-left: 5px double var(--chartreuse);
+    border-right: 5px double var(--chartreuse);
+    border-bottom-left-radius: 25px;
+}
+
+.rank, .pole-position, .points, .pt-count{
+    color: white;
+    font-size: 2rem;
+    margin-top: 30px;;
+    font-family: 'Racing Sans One', cursive;
+    z-index: 10;
+}
+
+.biography{
+    padding: 40px;
+    font-size: 1.2rem;
+    columns: 2;
+}
