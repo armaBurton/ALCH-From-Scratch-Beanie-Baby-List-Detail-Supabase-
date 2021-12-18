@@ -3,6 +3,7 @@ import { renderDetailCard } from './render-detail-utils.js'
 
 window.addEventListener(`load`, async() => {
     const card = await getDetailCard();
+    console.log(card);
     // const url = new URL(location.href);
     // const search = url.searchParams;
     // card.id = search.get(`id`);

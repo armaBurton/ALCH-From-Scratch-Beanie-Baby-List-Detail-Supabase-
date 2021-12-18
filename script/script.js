@@ -7,5 +7,5 @@ window.addEventListener(`load`, async() => {
     const rankCard = await getRankCard();
     renderRankCard(rankCard);
     
-console.log(rankCard);
+    console.log(rankCard);
 });
