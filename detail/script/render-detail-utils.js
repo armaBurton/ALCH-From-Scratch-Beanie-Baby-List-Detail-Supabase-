@@ -1,27 +1,13 @@
 export function renderDetailCard(data){
-    const url = new URL(location.href);
-    const search = url.searchParams;
-    const id = parseInt(search.get(`id`));
-
-    let position = 0;
-    let index = 0;
-    for (let d of data){
-        const x = d.id;
-        if (x === id){
-            index = position;
-        }
-        position++;
-    }
-
     let detailObj = {
-        riderNumber: data[index].riderNumber,
-        riderImg: data[index].riderImg,
-        name: data[index].name,
-        racerNumber: data[index].racerNumber,
-        sponsoredTeam: data[index].sponsoredTeam,
-        polePosition: data[index].polePosition,
-        ptCount: data[index].ptCount,
-        biography: data[index].biography
+        riderNumber: data.riderNumber,
+        riderImg: data.riderImg,
+        name: data.name,
+        racerNumber: data.racerNumber,
+        sponsoredTeam: data.sponsoredTeam,
+        polePosition: data.polePosition,
+        ptCount: data.ptCount,
+        biography: data.biography
     };
 
     //holds .top-left and .top-right
@@ -39,7 +25,6 @@ export function renderDetailCard(data){
     const riderImg = document.createElement(`img`);
     riderImg.classList.add(`rider-img`);
     riderImg.src = `.${detailObj.riderImg}`;
-    
     riderImage.append(riderImg);
     
     //holds .name-tag and .flex-row-space-between
@@ -109,15 +94,17 @@ export function renderDetailCard(data){
         window.location.href = '../';
     });
 
-    
     //holds .rider-number .rider-image
     const topLeft = document.createElement(`div`);
     topLeft.classList.add(`top-left`);
-    detailSectionTop.append(topLeft, topRight);
-    
     topLeft.append(riderNumber, riderImage);
-    
-    const main = document.querySelector(`.clicks-back`);
-    main.append(detailSectionTop, detailSectionBottom);
+
+    detailSectionTop.append(topLeft, topRight);
+
+    console.log(detailSectionTop, detailSectionBottom);
+
+    const returnClicker = document.querySelector(`.clicks-back`);
+    returnClicker.append(detailSectionTop, detailSectionBottom);
+    return returnClicker;
 
 }

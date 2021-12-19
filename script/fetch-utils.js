@@ -8,6 +8,7 @@ export async function getRankCard(){
     const response = await client
         .from(`rank-card`)
         .select();
+        
 
     return checkError(response);
 }
